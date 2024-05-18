@@ -1,0 +1,10 @@
+\q
+psql postgres 
+drop database restaurante;
+create database RESTAURANTE;
+\c restaurante
+\i /Users/monserratlopez/Desktop/ProyectoBases/ProyectoBD2024/creacion_tablas.sql
+\i /Users/monserratlopez/Desktop/ProyectoBases/ProyectoBD2024/inserciones.sql
+\i /Users/monserratlopez/Desktop/ProyectoBases/ProyectoBD2024/funciones_triggers.sql
+\i /Users/monserratlopez/Desktop/ProyectoBases/ProyectoBD2024/indices.sql
+\i /Users/monserratlopez/Desktop/ProyectoBases/ProyectoBD2024/consultas_vistas.sql
