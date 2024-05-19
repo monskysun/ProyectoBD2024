@@ -1,21 +1,21 @@
 --Empleados
 INSERT INTO empleado (num_emp, rfc_emp, nombre_pila_emp, ap_pat_emp, ap_mat_emp, fecha_nac_emp, foto_emp, estado_emp, codigo_postal_emp, colonia_emp, calle_emp, num_dom_emp, sueldo_emp, cocinero, mesero, administrativo)
 VALUES
-(1, 'ABC123456789', 'Juan', 'Pérez', 'González', '1990-05-15', NULL, 'Ciudad de México', '12345', 'Centro', 'Calle 1', 123, 15000.00, TRUE, FALSE, TRUE),
-(2, 'DEF987654321', 'María', 'López', 'Martínez', '1985-10-20', NULL, 'Ciudad de México', '54321', 'Colonia Norte', 'Calle 2', 456, 18000.00, TRUE, FALSE, TRUE),
-(3, 'GHI567890123', 'Pedro', 'Ramírez', 'Hernández', '1988-03-10', NULL, 'Ciudad de México', '67890', 'Colonia Sur', 'Calle 3', 789, 17000.00, TRUE, FALSE, TRUE),
-(4, 'JKL321098765', 'Ana', 'García', 'Pérez', '1992-07-25', NULL, 'Ciudad de México', '98765', 'Colonia Este', 'Calle 4', 1011, 16000.00, TRUE, FALSE, TRUE),
-(5, 'MNO543216789', 'Luis', 'Fernández', 'Sánchez', '1995-01-30', NULL, 'Ciudad de México', '13579', 'Colonia Oeste', 'Calle 5', 1213, 15500.00, TRUE, FALSE, TRUE),
-(6, 'PQR987654321', 'Laura', 'Díaz', 'Gómez', '1991-09-05', NULL, 'Ciudad de México', '24680', 'Centro', 'Calle 6', 1415, 14500.00, TRUE, FALSE, TRUE),
-(7, 'STU543216789', 'Carlos', 'Martínez', 'Rodríguez', '1989-12-12', NULL, 'Ciudad de México', '36924', 'Colonia Norte', 'Calle 7', 1617, 17500.00, TRUE, FALSE, TRUE),
-(8, 'VWX123456789', 'Paula', 'Hernández', 'López', '1993-04-18', NULL, 'Ciudad de México', '48215', 'Colonia Sur', 'Calle 8', 1819, 16500.00, TRUE, FALSE, TRUE),
-(9, 'YZA789012345', 'Javier', 'Pérez', 'Fernández', '1994-08-20', NULL, 'Ciudad de México', '59124', 'Colonia Este', 'Calle 9', 2021, 16000.00, TRUE, FALSE, TRUE),
-(10, 'BCD345678901', 'Elena', 'Gómez', 'Sánchez', '1996-02-28', NULL, 'Ciudad de México', '63179', 'Colonia Oeste', 'Calle 10', 2223, 15500.00, TRUE, FALSE, TRUE),
-(11, 'EFG678901234', 'Ricardo', 'Martínez', 'García', '1987-11-15', NULL, 'Ciudad de México', '74821', 'Centro', 'Calle 11', 2425, 15000.00, TRUE, FALSE, TRUE),
-(12, 'HIJ456789012', 'Mónica', 'López', 'Ramírez', '1990-06-10', NULL, 'Ciudad de México', '89214', 'Colonia Norte', 'Calle 12', 2627, 14500.00, TRUE, FALSE, TRUE),
-(13, 'KLM789012345', 'Fernando', 'González', 'Hernández', '1986-01-05', NULL, 'Ciudad de México', '95123', 'Colonia Sur', 'Calle 13', 2829, 17500.00, TRUE, FALSE, TRUE),
-(14, 'NOP567890123', 'Sofía', 'Rodríguez', 'Fernández', '1992-04-30', NULL, 'Ciudad de México', '12345', 'Colonia Este', 'Calle 14', 3031, 17000.00, TRUE, FALSE, TRUE),
-(15, 'QRS890123456', 'Daniel', 'Sánchez', 'Martínez', '1998-09-15', NULL, 'Ciudad de México', '24680', 'Colonia Oeste', 'Calle 15', 3233, 15500.00, TRUE, FALSE, TRUE);
+(1, 'RODR800211SF6', 'Juan', 'Pérez', 'González', '1990-05-15', NULL, 'Ciudad de México', '12345', 'Centro', 'Calle 1', 123, 15000.00, TRUE, FALSE, FALSE),
+(2, 'SANC861122KN4', 'María', 'López', 'Martínez', '1985-10-20', NULL, 'Ciudad de México', '54321', 'Colonia Norte', 'Calle 2', 456, 18000.00, TRUE, FALSE, FALSE),
+(3, 'VELA780224CR8', 'Pedro', 'Ramírez', 'Hernández', '1988-03-10', NULL, 'Ciudad de México', '67890', 'Colonia Sur', 'Calle 3', 789, 17000.00, TRUE, FALSE, FALSE),
+(4, 'JKL321098765', 'Ana', 'García', 'Pérez', '1992-07-25', NULL, 'Ciudad de México', '98765', 'Colonia Este', 'Calle 4', 1011, 16000.00, TRUE, FALSE, FALSE),
+(5, 'GARC921211GT9', 'Luis', 'Fernández', 'Sánchez', '1995-01-30', NULL, 'Ciudad de México', '13579', 'Colonia Oeste', 'Calle 5', 1213, 15500.00, TRUE, FALSE, FALSE),
+(6, 'LOPE890624MZ3', 'Laura', 'Díaz', 'Gómez', '1991-09-05', NULL, 'Ciudad de México', '24680', 'Centro', 'Calle 6', 1415, 14500.00, FALSE, FALSE, TRUE),
+(7, 'STU543216789', 'Carlos', 'Martínez', 'Rodríguez', '1989-12-12', NULL, 'Ciudad de México', '36924', 'Colonia Norte', 'Calle 7', 1617, 17500.00, FALSE, FALSE, TRUE),
+(8, 'HERN820530PU9', 'Paula', 'Hernández', 'López', '1993-04-18', NULL, 'Ciudad de México', '48215', 'Colonia Sur', 'Calle 8', 1819, 16500.00, FALSE, FALSE, TRUE),
+(9, 'YZA789012345', 'Javier', 'Pérez', 'Fernández', '1994-08-20', NULL, 'Ciudad de México', '59124', 'Colonia Este', 'Calle 9', 2021, 16000.00, FALSE, FALSE, TRUE),
+(10,'SANC861122KN4', 'Elena', 'Gómez', 'Sánchez', '1996-02-28', NULL, 'Ciudad de México', '63179', 'Colonia Oeste', 'Calle 10', 2223, 15500.00, FALSE, FALSE, TRUE),
+(11, 'MART831204HG7', 'Ricardo', 'Martínez', 'García', '1987-11-15', NULL, 'Ciudad de México', '74821', 'Centro', 'Calle 11', 2425, 15000.00, FALSE, TRUE, FALSE),
+(12, 'HIJ456789012', 'Mónica', 'López', 'Ramírez', '1990-06-10', NULL, 'Ciudad de México', '89214', 'Colonia Norte', 'Calle 12', 2627, 14500.00, FALSE, TRUE, FALSE),
+(13, 'KLM789012345', 'Fernando', 'González', 'Hernández', '1986-01-05', NULL, 'Ciudad de México', '95123', 'Colonia Sur', 'Calle 13', 2829, 17500.00, FALSE, TRUE, FALSEE),
+(14, 'NOP567890123', 'Sofía', 'Rodríguez', 'Fernández', '1992-04-30', NULL, 'Ciudad de México', '12345', 'Colonia Este', 'Calle 14', 3031, 17000.00, FALSE, TRUE, FALSE),
+(15, 'QRS890123456', 'Daniel', 'Sánchez', 'Martínez', '1998-09-15', NULL, 'Ciudad de México', '24680', 'Colonia Oeste', 'Calle 15', 3233, 15500.00, FALSE, TRUE, FALSE);
 --Modificaciones
 ALTER TABLE empleado ALTER COLUMN foto_emp DROP NOT NULL;
 --BIEN
